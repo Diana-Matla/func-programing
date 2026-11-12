@@ -1,21 +1,19 @@
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Pytest cache
+# Pytest
 .pytest_cache/
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 
-# System files
+# System
 .DS_Store
 Thumbs.db
 
