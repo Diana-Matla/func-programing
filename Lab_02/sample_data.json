@@ -1,0 +1,9 @@
+[
+  {"id": 1, "name": "Ann", "department": "IT", "monthly_hours": [160, 150, 170]},
+  {"id": 2, "name": "Bob", "department": "HR", "monthly_hours": [120, 130, 125]},
+  {"id": 3, "name": "Olha", "department": "IT", "monthly_hours": [140, 145, 150]},
+  {"id": 4, "name": "Taras", "department": "Sales", "monthly_hours": [160, 160, 160]},
+  {"id": 5, "name": "Iryna", "department": "HR", "monthly_hours": [30, 40, 20]},
+  {"id": 6, "name": "Petro", "department": "Sales", "monthly_hours": [150, 150, 150]},
+  {"id": 7, "name": "Maria", "department": "IT", "monthly_hours": [100, 90, 80]}
+]
