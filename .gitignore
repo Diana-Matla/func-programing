@@ -18,3 +18,11 @@ venv/
 Thumbs.db
 
 *.docx
+
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.benchmarks/
+.ruff_cache/
+.pycache/
+*.pyc
