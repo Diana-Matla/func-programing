@@ -9,6 +9,7 @@ Lab_03/
 ├── README.md
 ├── model.py                 # frozen dataclasses (RoutePoint, Parcel), Status, make_meta
 ├── core.py                  # pure-оновлення та чисті запити
+├── main.py   
 ├── mutable_baseline.py      # мутабельна версія для порівняння часу
 ├── tests/
 │   ├── test_immutability.py
@@ -47,6 +48,7 @@ Lab_03/
 Команди виконуються з папки `Lab_03`:
 
 ```powershell
+python main.py
 python -m pip install -r requirements.txt
 python -m pytest -q --durations=5
 python -m pytest --benchmark-min-rounds=10
@@ -64,7 +66,7 @@ python mutable_baseline.py
 15 passed in 1.05s
 ```
 
-`mypy`: `Success: no issues found in 5 source files`. `black` і `ruff`: без зауважень (`All checks passed!`).
+`mypy`: `Success: no issues found in 6 source files`. `black` і `ruff`: без зауважень (`All checks passed!`).
 
 ### Найповільніші тести (`pytest --durations=5`)
 
